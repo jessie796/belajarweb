@@ -91,6 +91,9 @@ li a{
 /* Hide the images by default */
 .mySlides {
   display: none;
+  
+  width:800px;
+  height:400px;
 }
 
 /* Next & previous buttons */
@@ -167,7 +170,7 @@ li a{
   to {opacity: 1}
 }
 .myslides img{
-  width:100%;
+  width:400px;
   height:400px;
   object-fit: cover;
 }
@@ -192,4 +195,18 @@ li a{
 .right img {
   object-fit: cover;
   object-position: 20% 50%;
+}
+.foot{
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+.footer{
+  background-color: #f1ebdb;
+  margin-top: 10px;
+  text-align: center;
+}
+i{
+  font-size: 18px;
+  margin: 0 10px;
 }
