@@ -223,13 +223,14 @@ i{
   }
 
   .right nav ul {
+    display: flex;
+    justify-content: center;
     padding: 0;
-    text-align: center;
   }
-
+  
   .right nav ul li {
-    display: block;
-    margin: 10px 0;
+    list-style: none; /* Removes default bullet points */
+    margin: 10px 15px;
   }
 
   .hero {
@@ -254,11 +255,18 @@ i{
     width: 100%;
   }
 
+  .mySlides {
+    display: none;
+    width: 100%;
+    height: auto; /* Allow height to adjust based on aspect ratio */
+  }
+  
   .mySlides img {
     width: 100%;
-    height: 400px;
+    height: auto; /* Ensure images resize proportionally */
     object-fit: cover;
   }
+  
 
   .card {
     display: flex;
