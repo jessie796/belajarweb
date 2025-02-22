@@ -210,3 +210,72 @@ i{
   font-size: 18px;
   margin: 0 10px;
 }
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .left {
+    margin-left: 0;
+  }
+
+  .right nav ul {
+    padding: 0;
+    text-align: center;
+  }
+
+  .right nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .hero {
+    height: 30vh;
+  }
+
+  .hero h1,
+  .hero p {
+    font-size: 18px;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    text-align: center;
+  }
+
+  .slideshow-container {
+    width: 100%;
+  }
+
+  .mySlides img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .foot {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
