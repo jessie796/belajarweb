@@ -210,3 +210,81 @@ i{
   font-size: 18px;
   margin: 0 10px;
 }
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .left {
+    margin-left: 0;
+  }
+
+  .right nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  .right nav ul li {
+    list-style: none; /* Removes default bullet points */
+    margin: 10px 15px;
+  }
+
+  .hero {
+    height: 30vh;
+  }
+
+  .hero h1,
+  .hero p {
+    font-size: 18px;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    text-align: center;
+  }
+
+  .slideshow-container {
+    width: 100%;
+  }
+
+  .mySlides {
+    display: none;
+    width: 100%;
+    height: auto; /* Allow height to adjust based on aspect ratio */
+  }
+  
+  .mySlides img {
+    width: 100%;
+    height: auto; /* Ensure images resize proportionally */
+    object-fit: cover;
+  }
+  
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .foot {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
