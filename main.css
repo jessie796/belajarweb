@@ -52,15 +52,15 @@ li a{
   top:40%;
 }
 .hero p a{
-  background: lightblue;
+  background: #f2f2f2;
   padding:10px;
   text-decoration: none;
   border-radius:10%;
   font-weight: bold;
-  color:brown;
+  color: #4e312d;
 }
 .hero p a:hover{
-  background: lightcoral;
+  background: #E6B9A6;
   color:white;
 }
 .main{
