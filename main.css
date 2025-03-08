@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Iansui&display=swap');
 *{box-sizing:border-box;}
 
 .header{
@@ -80,7 +81,11 @@ li a{
   flex:1;
   background: gray;
   padding:20px;
-  border-radius:10px;;
+  border-radius:10px;
+  font-family: "Iansui", cursive;
+  display: flex;
+  align-items: center;
+  font-size: 22px;
 }
 .slideshow-container{
   max-width: 100%;
@@ -244,12 +249,9 @@ i{
 
   .main {
     flex-direction: column;
+    
   }
 
-  .sidebar {
-    width: 100%;
-    text-align: center;
-  }
 
   .slideshow-container {
     width: 100%;
@@ -287,4 +289,15 @@ i{
     text-align: center;
     margin-bottom: 10px;
   }
+}
+.konten{
+  width:50%;
+  margin:auto;
+  line-height: 2;
+  font-family: "Iansui", cursive;
+  font-weight: 400;
+}
+.konten p img {
+  float: left;
+  margin: 0px 20px 10px 5px;
 }
