@@ -215,6 +215,17 @@ i{
   font-size: 18px;
   margin: 0 10px;
 }
+.konten{
+  width:50%;
+  margin:auto;
+  line-height: 2;
+  font-family: "Iansui", cursive;
+  font-weight: 400;
+}
+.konten p img {
+  float: left;
+  margin: 0px 20px 10px 5px;
+}
 /* Responsive styles */
 @media screen and (max-width: 768px) {
   .header {
@@ -293,14 +304,4 @@ i{
     width:90%;
   }
 }
-.konten{
-  width:50%;
-  margin:auto;
-  line-height: 2;
-  font-family: "Iansui", cursive;
-  font-weight: 400;
-}
-.konten p img {
-  float: left;
-  margin: 0px 20px 10px 5px;
-}
+
