@@ -53,7 +53,7 @@ li a{
   top:40%;
 }
 .hero p a{
-  background: #f2f2f2;
+  background: #f1ebdb;
   padding:10px;
   text-decoration: none;
   border-radius:10%;
@@ -61,8 +61,8 @@ li a{
   color: #4e312d;
 }
 .hero p a:hover{
-  background: #E6B9A6;
-  color:white;
+  background: white;
+  color:#4e312d;
 }
 .main{
   display:flex;
@@ -79,7 +79,7 @@ li a{
 }
 .sidebar{
   flex:1;
-  background: gray;
+  background: #f1ebdb;
   padding:20px;
   border-radius:10px;
   font-family: "Iansui", cursive;
@@ -184,6 +184,7 @@ li a{
   display: inline-block;
   border: 2px solid black;
   vertical-align: top;
+  margin: 10px 0 10px 0;
 }
 .content img {
   width: 100%;
@@ -200,6 +201,9 @@ li a{
 .right img {
   object-fit: cover;
   object-position: 20% 50%;
+}
+.card p{
+  text-align: center;
 }
 .foot{
   display: inline-block;
