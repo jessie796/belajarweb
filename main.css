@@ -310,14 +310,3 @@ i{
   color:#FCEDEF;
   background-color: #3D2D13;
 }
-.gallery {
-  width: 32%;
-  display: inline-block;
-  border: 2px solid black;
-  vertical-align: top;
-  margin: 10px 0px;
-}
-.gallery img {
-  width: 100%;
-  height: 300px;
-}
